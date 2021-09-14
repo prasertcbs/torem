@@ -96,6 +96,7 @@ module.exports = async function (fastify, opts) {
     // http://127.0.0.1:5000/t?p=3&s=10
     // http://127.0.0.1:5000/b?p=3&s=10
     // http://127.0.0.1:5000/p?p=3&s=10
+    // http://127.0.0.1:5000/e?p=3&s=10
     // console.log(request.params.text_type);
     // console.log(request.query.p);
     // console.log(request.query.s);
