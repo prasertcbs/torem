@@ -1,4 +1,5 @@
 // adapted from: https://github.com/itriplek/birthday-quotes-with-relationships/blob/master/birthday-quotes-with-relationship-formatted.json
+// t: thai, p: pronuncation, b: bali
 const wishes = {
   t: [
     '\u0e04\u0e27\u0e32\u0e21\u0e0a\u0e31\u0e48\u0e27\u0e44\u0e21\u0e48\u0e17\u0e33\u0e40\u0e2a\u0e35\u0e22\u0e40\u0e25\u0e22\u0e14\u0e35\u0e01\u0e27\u0e48\u0e32',
