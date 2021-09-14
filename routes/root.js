@@ -70,9 +70,6 @@ function generateLorem(paragraphs = 3, sentences = 15, text_key = 't') {
 async function readWishes() {
   wishes = q.wishes; // read from local (data/quotes_data.js)
 
-  // adapted from: https://github.com/itriplek/birthday-quotes-with-text_typeships/blob/master/birthday-quotes-with-text_typeship-formatted.json
-  // quotes = await readJson('https://raw.githubusercontent.com/prasertcbs/basic-dataset/master/birthday_quotes.json');
-
   // console.log(quotes['wife']);
   // console.log(Object.keys(quotes));
   // for (let i = 0; i < 5; i++) {
@@ -84,8 +81,8 @@ async function readWishes() {
 readWishes();
 
 module.exports = async function (fastify, opts) {
-  // http://127.0.0.1:5000/lorem
-  // https://torem.herokuapp.com/lorem
+  // http://127.0.0.1:5000/
+  // https://torem.herokuapp.com/
   fastify.get('/', async function (request, reply) {
     // return 'random birthday quote';
     // return quotes
